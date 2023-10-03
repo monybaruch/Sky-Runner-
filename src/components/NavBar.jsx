@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router-dom';
 import { pageLinks, socialMediaLinks } from '../data/data';
 import './navbar.css';
 const NavBar = () => {
@@ -11,9 +12,9 @@ const NavBar = () => {
           {pageLinks.map((link) => {
             return (
               <li key={link.id}>
-                <a href={link.href} className="nav-link">
+                <NavLink to={link.href} className="nav-link">
                   {link.text}
-                </a>
+                </NavLink>
               </li>
             );
           })}
@@ -23,9 +24,9 @@ const NavBar = () => {
             const { id, href, icon } = link;
             return (
               <li key={id}>
-                <a href={href} target="_blank" rel="noreferrer" className="nav-icon">
+                <NavLink to={href} target="_blank" rel="noreferrer" className="nav-icon">
                   <i className={icon}></i>
-                </a>
+                </NavLink>
               </li>
             );
           })}

@@ -1,10 +1,9 @@
-import { formLabels } from '../data/data';
 import { Form } from 'semantic-ui-react';
 import './forminput.css';
 const FormInput = () => {
   return (
     <div>
-      {formLabels.map((formlabel) => {
+      {/* {formLabels.map((formlabel) => {
         const { id, labelname, placeholder } = formlabel;
         return (
           <Form.Field key={id}>
@@ -12,7 +11,7 @@ const FormInput = () => {
             <input id="input-text" placeholder={placeholder} />
           </Form.Field>
         );
-      })}
+      })} */}
     </div>
   );
 };

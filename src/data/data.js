@@ -1,22 +1,22 @@
 export const pageLinks = [
   {
     id: 1,
-    href: '#home',
+    href: '/',
     text: 'home',
   },
   {
     id: 2,
-    href: '#about',
+    href: 'about',
     text: 'about',
   },
   {
     id: 3,
-    href: '#login',
+    href: 'login',
     text: 'login',
   },
   {
     id: 4,
-    href: '#register',
+    href: 'register',
     text: 'register',
   },
 ];
@@ -44,25 +44,27 @@ export const socialMediaLinks = [
   },
 ];
 
-export const formLabels = [
-  {
-    id: 1,
-    labelname: 'First Name',
-    placeholder: 'enter your first name',
-  },
-  {
-    id: 2,
-    labelname: 'Last Name',
-    placeholder: 'enter your last name',
-  },
-  {
-    id: 3,
-    labelname: 'Email',
-    placeholder: 'enter your email',
-  },
-  {
-    id: 4,
-    labelname: 'Password',
-    placeholder: 'enter your password',
-  },
-];
+// export const formLabels = [
+//   {
+//     id: 1,
+//     name: 'User Name',
+//     inputName: 'name',
+//     value: FormData.name
+//     placeholder: 'enter your first name',
+//   },
+//   {
+//     id: 2,
+//     labelname: 'Last Name',
+//     placeholder: 'enter your last name',
+//   },
+//   {
+//     id: 3,
+//     labelname: 'Email',
+//     placeholder: 'enter your email',
+//   },
+//   {
+//     id: 4,
+//     labelname: 'Password',
+//     placeholder: 'enter your password',
+//   },
+// ];

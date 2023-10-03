@@ -5,7 +5,7 @@ const LoginForm = () => {
   return (
     <main className="container">
       <h2>fill up the form to login:</h2>
-      <Form className="form">
+      <Form className="form" onSubmit={handleSubmit}>
         <FormInput />
         <Form.Field>
           <Checkbox label="I agree to the Terms and Conditions" />
