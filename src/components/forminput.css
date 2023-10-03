@@ -1,0 +1,12 @@
+#label-text {
+  font-size: 1.2rem;
+  margin: 10px;
+  color: var(--clr-primary-5);
+}
+#input-text {
+  margin: 10px;
+}
+
+#input-text::placeholder {
+  color: var(--clr-primary-5);
+}

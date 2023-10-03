@@ -1,10 +1,5 @@
+import MainPage from './pages/MainPage';
 function App() {
-  return (
-    <>
-      <h1>sky runner</h1>
-      <p>welcome to sky runner</p>
-    </>
-  );
+  return <MainPage />;
 }
-
 export default App;
