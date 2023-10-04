@@ -44,27 +44,26 @@ export const socialMediaLinks = [
   },
 ];
 
-// export const formLabels = [
-//   {
-//     id: 1,
-//     name: 'User Name',
-//     inputName: 'name',
-//     value: FormData.name
-//     placeholder: 'enter your first name',
-//   },
-//   {
-//     id: 2,
-//     labelname: 'Last Name',
-//     placeholder: 'enter your last name',
-//   },
-//   {
-//     id: 3,
-//     labelname: 'Email',
-//     placeholder: 'enter your email',
-//   },
-//   {
-//     id: 4,
-//     labelname: 'Password',
-//     placeholder: 'enter your password',
-//   },
-// ];
+export const formLabels = [
+  {
+    id: 1,
+    name: 'User Name',
+    inputName: 'name',
+    placeholder: 'enter your first name',
+  },
+  {
+    id: 2,
+    labelname: 'Last Name',
+    placeholder: 'enter your last name',
+  },
+  {
+    id: 3,
+    labelname: 'Email',
+    placeholder: 'enter your email',
+  },
+  {
+    id: 4,
+    labelname: 'Password',
+    placeholder: 'enter your password',
+  },
+];
